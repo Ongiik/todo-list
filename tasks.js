@@ -12,7 +12,7 @@ class Task {
         return [this.title, this.desc, this.dueDate, this.completion, this.taskIndex];
     }
 
-    //Task update functions
+    //Task update functions!
     updateTitle = (title) => {
         this.title = title;
     }
